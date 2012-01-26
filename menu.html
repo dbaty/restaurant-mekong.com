@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Le Mékong - Restaurant asiatique à Rennes et Liffré - Au menu</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28565973-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+<body>
+
+  <h1 id="header"><a href="/">Le Mékong</a></h1>
+
+  <div id="headerNavSep">~</div>
+
+  <div id="container">
+
+    <ul id="nav">
+      <li class="first"><a href="/">Présentation</a></li
+      ><li><a href="menu.html">Au menu</a></li
+      ><li><a href="photos.html">Photos</a></li
+      ><li class="last"><a href="contact.html">Nous contacter</a></li>
+    </ul>
+
+    <div class="content">
+
+      <p>
+        Le Mékong vous propose un large choix de plats asiatiques
+        (cambodgien, chinois, thaïlandais, etc.) à la carte ou au menu
+        (9,50&nbsp;€ le midi, et 3 autres menus entre 15 et 20&nbsp;€ le
+        soir). Pour les enfants, un menu spécial à 8,50&nbsp;€ avec une
+        surprise. Et pour les petits creux ou les grosses faims à
+        toute heure, Le Mékong vous propose tous ses plats à emporter&nbsp;!
+      </p>
+
+      <ul id="menuNav" style="clear: both">
+        <li><a href="javascript:void(0)" onclick="showMenuNav('specialites'); show('specialites');">Spécialités maison</a></li>
+        <li><a href="javascript:void(0)" onclick="showMenuNav('entrees'); show('entrees-soupes')">Entrées</a></li>
+        <li id="nav-entrees-soupes" class="sub"><a href="javascript:void(0)" onclick="show('entrees-soupes')">Soupes et potages</a></li>
+        <li id="nav-entrees-thai" class="sub"><a href="javascript:void(0)" onclick="show('entrees-thai')">Hors d'&oelig;uvres thaïlandais et cambodgien</a></li>
+        <li id="nav-entrees-chinois" class="sub"><a href="javascript:void(0)" onclick="show('entrees-chinois')">Hors d'&oelig;uvres chinois</a></li>
+        <li><a href="javascript:void(0)" onclick="showMenuNav('plats'); show('plats-crevette')">Plats</a></li>
+        <li id="nav-plats-crevette" class="sub"><a href="javascript:" onclick="show('plats-crevette')">À base de crevette</a></li>
+        <li id="nav-plats-calamars" class="sub"><a href="javascript:void(0)" onclick="show('plats-calamar')">À base de calamar</a></li>
+        <li id="nav-plats-poisson" class="sub"><a href="javascript:void(0)" onclick="show('plats-poisson')">À base de poisson</a></li>
+        <li id="nav-plats-grenouille" class="sub"><a href="javascript:void(0)" onclick="show('plats-grenouille')">À base de cuisses de grenouille</a></li>
+        <li id="nav-plats-saint-jacques" class="sub"><a href="javascript:void(0)" onclick="show('plats-saint-jacques')">À base de coquilles Saint-Jacques</a></li>
+        <li id="nav-plats-gambas" class="sub"><a href="javascript:void(0)" onclick="show('plats-gambas')">À base de gambas entières</a></li>
+        <li id="nav-plats-canard" class="sub"><a href="javascript:void(0)" onclick="show('plats-canard')">À base de canard</a></li>
+        <li id="nav-plats-poulet" class="sub"><a href="javascript:void(0)" onclick="show('plats-poulet')">À base de poulet</a></li>
+        <li id="nav-plats-porc" class="sub"><a href="javascript:void(0)" onclick="show('plats-porc')">À base de porc</a></li>
+        <li id="nav-plats-boeuf" class="sub"><a href="javascript:void(0)" onclick="show('plats-boeuf')">À base de b&oelig;uf</a></li>
+        <li><a href="javascript:void(0)" onclick="showMenuNav('legumes'); show('legumes')">Riz et légumes</a></li>
+        <li class="last"><a href="javascript:void(0)" onclick="showMenuNav('desserts'); show('desserts-fruits')">Desserts</a></li>
+        <li id="nav-desserts-fruits" class="sub"><a href="javascript:void(0)" onclick="show('desserts-fruits')">Fruits exotiques</a></li>
+        <li id="nav-desserts-patisseries" class="sub"><a href="javascript:void(0)" onclick="show('desserts-patisseries')">Pâtisseries</a></li>
+        <li id="nav-desserts-beignets" class="sub last"><a href="javascript:void(0)" onclick="show('desserts-beignets')">Beignets</a></li>
+      </ul>
+
+      <dl id="specialites" class="menuContent">
+        <dt class="first">Bo Boun<span class="price">8,90&nbsp;&euro;</span></dt>
+        <dt>Nouilles au b&oelig;uf<span class="price">8,90&nbsp;&euro;</span></dt>
+        <dt>Nouilles aux crevettes<span class="price">10,00&nbsp;&euro;</span></dt>
+        <dt>Amok<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd>Poisson vapeur aux épices Khmer, Cambodge.</dd>
+        <dt>Nouilles d'Angkor<span class="price">11,50&nbsp;&euro;</span></dt>
+        <dd>Nouilles frites, crevettes à la sauce aigre-douce.</dd>
+        <dt>Trois merveilles thaïlandais<span class="price">11,50&nbsp;&euro;</span></dt>
+        <dd>Noix de Saint-Jacques, crevettes, calamars, piquant.</dd>
+        <dt>Trois merveilles Bangkok<span class="price">11,50&nbsp;&euro;</span></dt>
+        <dd>Lotte, crevettes, calamars, pimenté avec ou sans curry.</dd>
+        <dt>Fondue maison (pour deux)<span class="price">34,50&nbsp;&euro;</span></dt>
+        <dd>Viande de b&oelig;uf et fruits de mer.</dd>
+      </dl>
+
+      <dl id="entrees-soupes" class="menuContent">
+        <dt class="first">Soupe spéciale maison<span class="price">5,50&nbsp;&euro;</span></dt>
+        <dd>Vermicelle, b&oelig;uf, calamars, crevettes.</dd>
+        <dt>Soupe thaïlandaise aux crevettes<span class="price">5,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Soupe de nouilles au canard<span class="price">5,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Soupe aux raviolis chinois<span class="price">5,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Soupe de vermicelles au poulet<span class="price">4,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Potage pékinois<span class="price">4,90&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Potage de crabe aux asperges<span class="price">4,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="entrees-thai" class="menuContent">
+
+        <dt class="first">Hors-d'&oelig;uvre varié<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd>Salade, beignets de crevette, raviolis frits, nems.</dd>
+        <dt>Samoussa au b&oelig;uf<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Papillote aux crevettes<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Pince de crabe<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd>Panée.</dd>
+        <dt>Crabe farci<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Salade au b&oelig;uf epicée<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Salade aux calamars epicée <span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Salade aux crevettes epicée<span class="price">7,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Brochettes de calamars<span class="price">7,00&nbsp;&euro;</span></dt>
+        <dd>Aux vermicelles.</dd>
+        <dt>Brochettes de crevettes grillées<span class="price">7,00&nbsp;&euro;</span></dt>
+        <dd>Aux vermicelles.</dd>
+        <dt>Brochettes de coquilles Saint-Jacques<span class="price">8,00&nbsp;&euro;</span></dt>
+        <dd>Aux vermicelles.</dd>
+        <dt>Les 6 trésors du Mékong<span class="price">8,00&nbsp;&euro;</span></dt>
+        <dd>Salade, nem, samoussa, pince de crabe, ravioli frit, papillote, beignet de crevette.</dd>
+        <dt>Rouleau de printemps<span class="price">4,50&nbsp;&euro;</span></dt>
+        <dd>Crevette.</dd>
+        <dt>Nems<span class="price">4,50&nbsp;&euro;</span></dt>
+        <dd>Pâté impérial.</dd>
+      </dl>
+
+      <dl id="entrees-chinois" class="menuContent">
+        <dt class="first">Salade aux crevettes ou crabe ou poulet<span class="price">5,30&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Raviolis porc à la vapeur<span class="price">5,30&nbsp;&euro;</span></dt>
+        <dd>Siv Maï.</dd>
+        <dt>Raviolis crevette à la vapeur<span class="price">5,30&nbsp;&euro;</span></dt>
+        <dd>Ha Kao.</dd>
+        <dt>Croissant aux crevettes à la vapeur<span class="price">5,30&nbsp;&euro;</span></dt>
+        <dd>Funko.</dd>
+        <dt>Trois merveilles à la vapeur<span class="price">6,30&nbsp;&euro;</span></dt>
+        <dd>Raviolis porc, raviolis crevette, croissants crevette.</dd>
+        <dt>Raviolis frits<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Beignets de crevette<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-crevette" class="menuContent">
+        <dt class="first">Crevettes aux champignons noirs<span class="price">8,80&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Crevettes aigre douce <span class="price">8,80&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Crevettes thaïlandais<span class="price">8,80&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Crevettes phathai<span class="price">8,80&nbsp;&euro;</span></dt>
+        <dd>Piquant avec ou sans curry.</dd>
+        <dt>Crevettes et calamars aux satés<span class="price">8,80&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-calamar" class="menuContent">
+        <dt class="first">Calamars à la cantonnaise<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Calamars à la thaïlandaise<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Calamars phathai<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd>Piquant avec ou sans curry.</dd>
+      </dl>
+
+      <dl id="plats-poisson" class="menuContent">
+        <dt class="first">Filet de lieu aigre-douce<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Lotte aigre-douce<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Lotte au gingembre thaï<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Lotte à la thaïlandaise<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Lotte phathai<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd>Piquant avec ou sans curry.</dd>
+        <dt>Poisson chinois à la vapeur<span class="price">12,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Poisson chinois aigre-douce<span class="price">12,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-grenouille" class="menuContent">
+        <dt class="first">Cuisses de grenouilles à la cantonnaise<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Cuisses de grenouilles à la thaïlandaise<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Cuisses de grenouilles au gingembre thaï<span class="price">10,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-saint-jacques" class="menuContent">
+        <dt class="first">Noix de Saint-Jacques aigre douce<span class="price">12,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Noix de Saint-Jacques à la cantonnaise<span class="price">12,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Noix de Saint-Jacques à la thaïlandaise<span class="price">12,50&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+      </dl>
+
+      <dl id="plats-gambas" class="menuContent">
+        <dt class="first">Gambas grillées au saté<span class="price">15,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Gambas sautées maison<span class="price">15,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-canard" class="menuContent">
+        <dt class="first">Canard à l'ananas<span class="price">7,60&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Canard aux champignons noirs<span class="price">7,60&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Canard à la thaïlandaise<span class="price">7,60&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Filet de canard laqué<span class="price">8,60&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-poulet" class="menuContent">
+        <dt class="first">Poulet à l'ananas<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Poulet aux champignons noirs<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Poulet aux pousses de bambou<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Poulet au curry thaïlandais<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Poulet à la thaïlandaise<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Poulet au gingembre thaïlandais<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Poulet aux noix de cajou<span class="price">6,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-porc" class="menuContent">
+        <dt class="first">Porc au soja<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Porc aux champignons noirs<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Porc au caramel<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Porc chop suey<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Porc à l'aigre douce<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Porc à la thaïlandaise<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+        <dt>Porc phattai<span class="price">6,00&nbsp;&euro;</span></dt>
+        <dd>Piquant avec ou sans curry.</dd>
+        <dt>Travers de porc<span class="price">7,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="plats-boeuf" class="menuContent">
+        <dt class="first">B&oelig;uf au saté<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>B&oelig;uf à la cantonnaise<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Steak chinois<span class="price">8,10&nbsp;&euro;</span></dt>
+        <dd>Au poivre et à l'ail.</dd>
+        <dt>B&oelig;uf phattai<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd>Piquant avec ou sans curry.</dd>
+        <dt>B&oelig;uf à l'ananas<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>B&oelig;uf aux oignons<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>B&oelig;uf aux champignons noirs<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>B&oelig;uf à la thaïlandaise<span class="price">6,50&nbsp;&euro;</span></dt>
+        <dd>Piquant.</dd>
+      </dl>
+
+      <dl id="legumes" class="menuContent">
+        <dt>Riz nature<span class="price">1,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Riz gluant<span class="price">3,50&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Riz cantonnais ou au curry<span class="price">4,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Nouilles sautées ou soja sauté<span class="price">4,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Légumes variés (sautés ou vapeur)<span class="price">4,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Choux chinois sautés<span class="price">4,00&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="desserts-fruits" class="menuContent">
+        <dt class="first">Arbouses au sirop<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd>Fraises chinoises.</dd>
+        <dt>Litchis au sirop<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Longan ou ramboutan au sirop<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Salade de fruits asiatiques<span class="price">4,30&nbsp;&euro;</span></dt>
+        <dd></dd>
+      </dl>
+
+      <dl id="desserts-patisseries" class="menuContent">
+        <dt class="first">Tarte à la noix de coco<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Gâteaux chinois<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd>Avec de la crème de soja.</dd>
+        <dt>Nougats chinois<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd>Avec des grains de sésame.</dd>
+        <dt>Gingembre ou kumquat confit<span class="price">2,90&nbsp;&euro;</span></dt>
+        <dd></dd>
+        <dt>Assortiment<span class="price">3,50&nbsp;&euro;</span></dt>
+        <dd>Nougats, kumquats, gingembre.</dd>
+        <dt>Banane au lait de coco<span class="price">4,30&nbsp;&euro;</span></dt>
+        <dd>Chaud.</dd>
+        <dt>Riz gluant au lait de coco<span class="price">4,30&nbsp;&euro;</span></dt>
+        <dd>Chaud.</dd>
+      </dl>
+
+      <dl id="desserts-beignets" class="menuContent">
+        <dt class="first">Beignets<span class="price">4,30&nbsp;&euro;</span></dt>
+        <dd>Pomme, ananas ou banane.</dd>
+        <dt>Beignets au caramel<span class="price">5,90&nbsp;&euro;</span></dt>
+        <dd>Pomme ou banane.</dd>
+      </dl>
+
+      <div id="menuPhotos">
+        <div id="photoFrameMenu">
+          <img src="pics/plat128.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat132.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat133.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat141.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat151.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat290.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat299.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat310.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat348.png" width="240" height="180" alt=""/>
+          <img class="hidden" src="pics/plat366.png" width="240" height="180" alt=""/>
+        </div>
+      </div>
+
+      <p style="clear: both; text-align: center; padding-top: 0.5em;">
+        &rarr; <a href="plats-emporter-mekong-rennes.pdf">Téléchargez
+        la liste des plats</a>, plus facile pour commander à emporter
+        par téléphone.
+      </p>
+    </div>
+  </div>
+
+  <div id="footer">
+    Le Mékong
+    &middot;
+    <abbr title="180 bis rue de Fougères - 37500 Rennes">Rennes</abbr>
+    (02 23 20 05 06) et
+    <abbr title="13 rue de Rennes - 35340 Liffré">Liffré</abbr>
+    (02 99 68 55 15)
+    &middot;
+    <a href="mentions-legales.html">mentions légales</a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    var sub_menu_nav = undefined;
+    var menu_content = undefined;
+
+    function show(elm_id) {
+      if (typeof menu_content !== undefined) {
+        $('#' + menu_content).toggle(false);
+      }
+      $('#' + elm_id).toggle(true);
+      menu_content = elm_id;
+    }
+
+    function showMenuNav(elm_id) {
+      if (typeof sub_menu_nav !== undefined) {
+          $(sub_menu_nav).toggle(false);
+      }
+      var selector = '[id^="nav-' + elm_id + '-"]'
+      $(selector).toggle(true);
+      sub_menu_nav = selector;
+    }
+
+    $(function() {
+      show('specialites');
+    });
+  </script>
+  <script type="text/javascript">
+    var pics = document.getElementById('photoFrameMenu').children;
+    var idx = 0;
+    function showNextPic() {
+      idx += 1;
+      var pic = $(pics[idx % pics.length]);
+      pic.css({'display': 'block', 'opacity': 0, 'z-index': idx + 1});
+      pic.fadeTo(1000, 1);
+    }
+    window.setInterval(showNextPic, 3000);
+  </script>
+</body>
+</html>

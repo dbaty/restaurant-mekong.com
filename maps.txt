@@ -1,0 +1,5 @@
+Liffré : http://maps.google.com/maps/api/staticmap?center=48.214050,-1.508550&zoom=16&size=250x250&language=fr&sensor=false&markers=48.21390,-1.507702 
+ou 
+http://maps.google.com/maps/api/staticmap?center=48.214050,-1.508550&zoom=15&size=250x250&language=fr&sensor=false&markers=48.21390,-1.507702
+
+Rennes : http://maps.google.com/maps/api/staticmap?center=48.119500,-1.66400&zoom=14&size=250x250&language=fr&sensor=false&markers=48.124700,-1.657648

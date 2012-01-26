@@ -1,0 +1,231 @@
+body, h1, h2, h3
+p, div, ul, ol, li,
+table, tr, th, td,
+dl, dd, dt
+img {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body {
+    background-color: #a00a0a;
+    background: url('../img/bg.png');
+    color: #f4f652;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 100%; /* 16px */
+}
+
+a {
+    color: #f4f652;
+    text-decoration: none;
+    border-bottom: 1px solid #f4f652;
+    padding-bottom: 0.1em;
+}
+
+img {
+    border: 2px solid white;
+}
+
+.hidden {
+    display: none;
+}
+
+#header {
+    font-family: Tangerine, cursive;
+    text-align: center;
+    font-size: 4em;
+    margin: 0.25em 0 0 0;
+}
+
+#header a {
+    border: 0;
+}
+
+#headerNavSep {
+    text-align: center;
+    font-size: 2em;
+    margin-top: -0.4em;
+}
+
+#container {
+    width: 50em;
+    margin: 0 auto;
+}
+
+#nav {
+    list-style: none;
+    text-align: center;
+    margin: 0.5em 0 1.5em 0;
+}
+
+#nav li {
+    display: inline;
+    padding-left: 1em;
+    font-variant: small-caps;
+}
+
+#nav li.first {
+    padding-left: 0;
+}
+
+#nav li:after {
+    content: "\00b7";
+    margin-left: 1em;
+}
+
+#nav li.last:after {
+    content: "";
+    margin-left: 0;
+}
+
+#nav li a {
+    border-bottom: 0.15em solid #f4f652;
+}
+
+#footer {
+    clear: both;
+    border-top: 1px solid #c97e2d;
+    padding-top: 1em;
+    font-size: 0.7em;
+    width: 45em;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.content {
+    margin-top: 1em;
+}
+
+.content p {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+#legal li {
+    font-size: 0.5em;
+    padding-bottom: 1em;
+}
+/*************************************************************/
+
+
+/******
+** Menu
+******/
+#menuNav {
+    list-style-type: none;
+    float: left;
+    width: 8em;
+    margin: 0 1em 1em 0;
+}
+
+#menuNav li {
+    border-bottom: 1px solid #b95500;
+    padding: 0.5em 0;
+    font-size: 0.8em;
+}
+
+#menuNav li.last {
+    border-bottom: 0;
+}
+
+#menuNav li a {
+    border: 0;
+    display: block;
+}
+
+#menuNav li.sub {
+    display: none;
+    font-size: 0.7em;
+    padding-left: 1em;
+}
+
+.menuContent {
+    float: left;
+    display: none;
+    margin-bottom: 1em;
+    width: 23em;
+}
+
+.menuContent dt {
+    margin-top: 1em;
+}
+
+.menuContent dt.first {
+    margin-top: 0;
+}
+
+.price {
+    padding-left: 1em;
+    color: #bbbbbb;
+    font-size: 0.7em;
+}
+
+.menuContent dd {
+    padding-left: 1em;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #c97e2d;
+}
+
+#menuPhotos {
+    float: left;
+    margin-left: 2em;
+}
+
+#photoFrameMenu {
+    width: 244px;
+    height: 184px;
+}
+
+#photoFrame {
+    width: 484px;
+    height: 364px;
+    margin: 0 auto;
+}
+
+#photoFrame img, #photoFrameMenu img {
+    position: absolute;
+}
+/*************************************************************/
+
+
+/*********
+** Contact
+*********/
+#contactSheet {
+    list-style: none;
+}
+
+#contactSheet li {
+    width: 47%;
+    float: left;
+}
+
+#contactSheet li.first {
+    border-right: 1px solid #c97e2d;
+    padding-right: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.contactSheetHeader, .contactSheetMap, .contactSheetInfo {
+    text-align: center;
+}
+
+.contactSheetHeader strong {
+    font-size: 1.6em;
+}
+
+.contactSheetMap a {
+    border: 0;
+}
+
+.contactSheetInfo .phone {
+    font-size: 1.6em;
+}
+/*************************************************************/
