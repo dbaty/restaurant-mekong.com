@@ -201,8 +201,14 @@ img {
     list-style: none;
 }
 
+/*
 #contactSheet li {
     width: 47%;
+    float: left;
+}
+*/
+#contactSheet li {
+    width: 98%;
     float: left;
 }
 
